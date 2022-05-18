@@ -11,4 +11,4 @@ COPY --chown=dependabot:dependabot . ${CODE_DIR}
 
 FROM dependabot-script-base as dependabot-script
 
-# CMD ["bundle", "exec", "ruby", "./generic-update-script.rb"]
+CMD ["bundle", "exec", "ruby", "./generic-update-script.rb"]
