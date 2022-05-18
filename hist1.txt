@@ -1,0 +1,182 @@
+    1  ls
+    2  clear
+    3  python
+    4  python3
+    5  which docker
+    6  docker
+    7  clear
+    8  ls
+    9  bin/docker-dev-shell 
+   10  ls
+   11  bash bin/docker-dev-shell 
+   12  cd ..
+   13  ls
+   14  mkdir temp
+   15  git clone https://github.com/dependabot/dependabot-core.git
+   16  ls
+   17  cd temp/
+   18  git clone https://github.com/dependabot/dependabot-core.git
+   19  git clone http://github.com/dependabot/dependabot-core.git
+   20  exit
+   21  git clone  8a696e536fae
+   22  git clone https://github.com/dependabot/dependabot-core.git
+   23  gh
+   24  sudo apt install gitsome
+   25  gh
+   26  git
+   27  clear
+   28  git clone https://github.com/dependabot/dependabot-core.git
+   29  git clone http://github.com/dependabot/dependabot-core.git
+   30  ls
+   31  exit
+   32  docker os
+   33  docker ps
+   34  bin/docker-dev-shell 
+   35  bash bin/docker-dev-shell 
+   36  sh bin/docker-dev-shell
+   37  ls
+   38  bin/docker-dev-shell 
+   39  bash
+   40  pwd
+   41  ls
+   42  cd ..
+   43  ls
+   44  cd ..
+   45  ls
+   46  cd home/cryo_ch33m/
+   47  ls
+   48  clear
+   49  docker ps -all
+   50  docker kill
+   51  docker kill 192aa7c5c278
+   52  docker kill 192aa7c5c278 -f
+   53  docker ps -all
+   54  docker images
+   55  docker rmi c4a1296d756e
+   56  docker rmi c4a1296d756e -f
+   57  docker images
+   58  docker ps
+   59  docker ps -all
+   60  docker container ls
+   61  docker pull dependabot/dependabot-core
+   62  docker images
+   63  docker rmi  8a696e536fae
+   64  docker images
+   65  docker run -it c4a1296d756e 
+   66  docker ps
+   67  docker rmi  c4a1296d756e
+   68  docker rmi c4a1296d756e
+   69  docker rmi c4a1296d756e -f
+   70  docker
+   71  clear
+   72  docker pull ghcr.io/dependabot/dependabot-core-development:latest
+   73  docker tag ghcr.io/dependabot/dependabot-core-development dependabot/dependabot-core-development
+   74  bin/docker-dev-shell
+   75  ls
+   76  docker ps
+   77  docker images
+   78  docker tag ghcr.io/dependabot/dependabot-core-development dependabot/dependabot-core-development bin/docker-dev-shell
+   79  docker images
+   80  docker run -it dependabot/dependabot-core-development bin/docker-dev-shell
+   81  docker run -it c4a1296d756e
+   82  docker ps
+   83  docker ps -all
+   84  docker images
+   85  docker run -it c4a1296d756e
+   86  ls
+   87  git clone https://github.com/dependabot/dependabot-script.git
+   88  cd dependabot-script/
+   89  docker run --rm -v "$(pwd):/home/dependabot/dependabot-script" -w /home/dependabot/dependabot-script -e BITBUCKET_ACCESS_TOKEN=$BITBUCKET_ACCESS_TOKEN -e GITHUB_ACCESS_TOKEN=$GITHUB_ACCESS_TOKEN -e PACKAGE_MANAGER=npm_and_yarn -e PROJECT_PATH=projects/project_name/repos/repo_name bundle exec ruby ./generic-update-script.rb
+   90  docker build -t "dependabot/dependabot-script" -f Dockerfile .
+   91  docker run --rm   --env "PROJECT_PATH=organization/project"   --env "PACKAGE_MANAGER=bundler"   "dependabot/dependabot-script"
+   92  docker run --rm --env "PROJECT_PATH=organization/project" --env "PACKAGE_MANAGER=bundler" "dependabot/dependabot-script"
+   93  docker run --rm -v "$(pwd):/home/dependabot/dependabot-script" -w /home/dependabot/dependabot-script -e BITBUCKET_ACCESS_TOKEN=$BITBUCKET_ACCESS_TOKEN -e GITHUB_ACCESS_TOKEN=$GITHUB_ACCESS_TOKEN -e PACKAGE_MANAGER=npm_and_yarn -e PROJECT_PATH=projects/project_name/repos/repo_name bundle exec ruby ./generic-update-script.rb
+   94  docker images
+   95  docker run --rm -v "$(pwd):/home/dependabot/dependabot-script" -w /home/dependabot/dependabot-script -e BITBUCKET_ACCESS_TOKEN=$BITBUCKET_ACCESS_TOKEN -e GITHUB_ACCESS_TOKEN=$GITHUB_ACCESS_TOKEN -e PACKAGE_MANAGER=npm_and_yarn -e PROJECT_PATH=projects/project_name/repos/repo_name bundle exec ruby ./generic-update-script.rb
+   96  ls
+   97  docker images
+   98  ls
+   99  docker run -it dependabot/dependabot-script
+  100  docker run -it "dependabot/dependabot-script"
+  101  docker run -it  ea01ea5df9e5 
+  102  clear
+  103  docker image
+  104  docker images
+  105  ls
+  106  code .
+  107  cd ..
+  108  ls
+  109  cd dependabot-script/
+  110  code .
+  111  exit
+  112  ls
+  113  cd dependabot-core/
+  114  docker images
+  115  docker ps
+  116  docker images
+  117  docker pull ghcr.io/dependabot/dependabot-core-development:0.188.0
+  118  docker tag ghcr.io/dependabot/dependabot-core-development:0.188.0 dependabot/dependabot-core-development:0.188.0
+  119  docker images
+  120  ls
+  121  bin/docker-dev-shell 
+  122  code .
+  123  bin/docker-dev-shell 
+  124  docker images
+  125  bin/docker-dev-shell 
+  126  docker ps
+  127  docker images
+  128  docker rmi  97eff014172c -f
+  129  docker images
+  130  ls
+  131  docker pull ghcr.io/dependabot/dependabot-core-development:0.188.0
+  132  ls
+  133  docker images
+  134  docker tag ghcr.io/dependabot/dependabot-core-development:0.188.0 dependabot/dependabot-core-development:0.188.0
+  135  bin/docker-dev-shell 
+  136  docker images
+  137  exit
+  138  cd ..
+  139  ls
+  140  cd bin/
+  141  ls
+  142  docker-dev-shell
+  143  ls
+  144  ./docker-dev-shell 
+  145  .\docker-dev-shell 
+  146  cd ..
+  147  ls
+  148  pwd
+  149  cd bin
+  150  ls
+  151  echo $SHELL
+  152  ls
+  153  bash docker-dev-shell 
+  154  cd ..
+  155  bash bin/docker-dev-shell 
+  156  bin/docker-dev-shell
+  157  bash bin/docker-dev-shell 
+  158  cd ..
+  159  ls
+  160  cd dependabot-core/
+  161  code .
+  162  ls
+  163  $ docker pull ghcr.io/dependabot/dependabot-core-development:latest
+  164  $ docker tag ghcr.io/dependabot/dependabot-core-development dependabot/dependabot-core-development
+  165  docker pull ghcr.io/dependabot/dependabot-core-development:latest
+  166  exit
+  167  bundle
+  168  bundle install
+  169  docker build -t "dependabot/dependabot-script" -f Dockerfile .
+  170  docker run -ti -e BITBUCKET_APP_USERNAME=H447117 -e BITBUCKET_APP_PASSWORD=AmWelcome@2022 -e PROJECT_PATH=test -e DIRECTORY_PATH=test/src -e PACKAGE_MANAGER=pip  "dependabot/dependabot-script"
+  171  bundle update --bundler
+  172  docker run -ti -e BITBUCKET_APP_USERNAME=H447117 -e BITBUCKET_APP_PASSWORD=AmWelcome@2022 -e PROJECT_PATH=test -e DIRECTORY_PATH=test/src -e PACKAGE_MANAGER=pip  "dependabot/dependabot-script"
+  173  gem install bundler:2.3.13
+  174  docker run -ti -e BITBUCKET_APP_USERNAME=H447117 -e BITBUCKET_APP_PASSWORD=AmWelcome@2022 -e PROJECT_PATH=test -e DIRECTORY_PATH=test/src -e PACKAGE_MANAGER=pip  "dependabot/dependabot-script"
+  175  gem install bundler -v '~> 2.3'
+  176  docker run -ti -e BITBUCKET_APP_USERNAME=H447117 -e BITBUCKET_APP_PASSWORD=AmWelcome@2022 -e PROJECT_PATH=test -e DIRECTORY_PATH=test/src -e PACKAGE_MANAGER=pip  "dependabot/dependabot-script"
+  177  bundle env
+  178  docker run -ti  "dependabot/dependabot-script"
+  179  docker ps
+  180  docker ps -all
+  181  docker ps --all
+  182  history >> hist1.txt
