@@ -20,12 +20,12 @@ credentials = [
 ]
 
 # Full name of the repo you want to create pull requests for.
-# repo_name = ENV["PROJECT_PATH"] # namespace/project
-repo_name = "/users/h447117/repos/test/browse" # namespace/project
+repo_name = ENV["PROJECT_PATH"] # namespace/project
+# repo_name = "/users/h447117/repos/test/browse" # namespace/project
 
 # Directory where the base dependency files are.
-# directory = ENV["DIRECTORY_PATH"] || "/"
-directory = "/src"
+directory = ENV["DIRECTORY_PATH"] || "/"
+# directory = "/src"
 
 # Branch to look at. Defaults to repo's default branch
 branch = ENV["BRANCH"]
